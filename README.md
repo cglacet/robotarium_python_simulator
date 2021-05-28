@@ -127,7 +127,9 @@ pip install matplotlib-1.5.2-cp35-cp35m-win32.whl  # Python 3.5.x Version
 # Install RPS
 In your command terminal, navigate to the cloned python simulator repository containing setup.py. Then run,
 
+```bash
 pip install .
+```
 
 ### macOS
 To install the simulator on macOS, it is recommended to install a package manager for easy installation. CVXOPT will have to be installed using PIP.
