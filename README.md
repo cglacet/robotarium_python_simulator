@@ -3,7 +3,7 @@ Introduction
 
 This is a Python simulator for Robotarium! The Robotarium is a project at Georgia Institute of Technology allowing public, remote access to a state-of-the-art multi-robot testbed.
 
-This is an open-source, re-implementation of the [MATLAB simulator]  (https://github.com/robotarium/robotarium-matlab-simulator) in Python.
+This is an open-source, re-implementation of the [MATLAB simulator](https://github.com/robotarium/robotarium-matlab-simulator) in Python.
 
 ## Installation
 The simulator can run on all major platforms (Windows, Linux, and macOS). All that is required is cloning the repository and installing some necessary dependencies.
@@ -13,11 +13,11 @@ https://github.com/robotarium/robotarium_python_simulator
 ```
 
 The following dependencies are required for utilization of the simulator:
-- [NumPy] (http://www.numpy.org)
-- [matplotlib] (http://matplotlib.org/index.html)
-- [CVXOPT] (http://cvxopt.org/index.html)
+- [NumPy](http://www.numpy.org)
+- [matplotlib](http://matplotlib.org/index.html)
+- [CVXOPT](http://cvxopt.org/index.html)
 
-NOTE: The SciPy stack and matplotlib can be difficult to install on Windows. However, [this] (http://www.lfd.uci.edu/~gohlke/pythonlibs/) link provides .whl files necessary for installation. Make sure to install all the dependencies for each version part of the SciPy and matplotlib stack!
+NOTE: The SciPy stack and matplotlib can be difficult to install on Windows. However, [this](http://www.lfd.uci.edu/~gohlke/pythonlibs/) link provides .whl files necessary for installation. Make sure to install all the dependencies for each version part of the SciPy and matplotlib stack!
 
 ## Dependency Installation
 
@@ -61,7 +61,7 @@ pip3 install matplotlib
 pip3 install cvxopt --user
 ```
 ### Windows
-Of the three installations, this one will be the most difficult due to the fact that Windows does not come with a native or easily installable package manager. To circumvent these problems, it will be necessary to install the packages using pip. The issue with using pip, however, is that NumPy, SciPy, and matplotlib require the packages to be installed without compiling. Therefore, each wheel must be installed individually. This is a simple process using pip 8.x version. The following commands are for python installations that are using PIP 8.x version. The wheel files used here can be found [here] (http://www.lfd.uci.edu/~gohlke/pythonlibs/).
+Of the three installations, this one will be the most difficult due to the fact that Windows does not come with a native or easily installable package manager. To circumvent these problems, it will be necessary to install the packages using pip. The issue with using pip, however, is that NumPy, SciPy, and matplotlib require the packages to be installed without compiling. Therefore, each wheel must be installed individually. This is a simple process using pip 8.x version. The following commands are for python installations that are using PIP 8.x version. The wheel files used here can be found [here](http://www.lfd.uci.edu/~gohlke/pythonlibs/).
 
 NOTE: The following files installed are for 64-bit architectures. If you have a 32-bit CPU, download the corresponding 32-bit and python versions of the files specified below.
 
@@ -133,7 +133,7 @@ pip install .
 To install the simulator on macOS, it is recommended to install a package manager for easy installation. CVXOPT will have to be installed using PIP.
 
 #### Homebrew
-To use [Homebrew] (http://brew.sh) for dependency installation requires a bit of extra work due to the scipy stack not being a part of the main repository. You can then install the dependencies labeled above using the following work around (Requires PIP). A more detailed explanation can be found [here] (https://penandpants.com/2012/02/24/install-python/).
+To use [Homebrew](http://brew.sh) for dependency installation requires a bit of extra work due to the scipy stack not being a part of the main repository. You can then install the dependencies labeled above using the following work around (Requires PIP). A more detailed explanation can be found [here](https://penandpants.com/2012/02/24/install-python/).
 
 ```
 # Install Python (Choose Python 2.7.x or 3.5.x)
@@ -162,7 +162,7 @@ pip install cvxopt --user
 ```
 
 #### Macports
-To use [Macports] (https://www.macports.org/), use the following commands to install the scipy stack. At the time of writing, a Python 3.5.x version for the NumPy stack do not exist. 
+To use [Macports](https://www.macports.org/), use the following commands to install the scipy stack. At the time of writing, a Python 3.5.x version for the NumPy stack do not exist. 
 ```
 # For Python 2.7+
 sudo port install py27-numpy py27-scipy py27-matplotlib
